@@ -1,0 +1,26 @@
+{
+  "name": "ly-10-astryx",
+  "version": "1.0.0",
+  "description": "Đề Cương Ôn Tập KTGK I Vật Lí 10 (2026-2027) redesigned with TypeScript & Astryx Design System",
+  "type": "module",
+  "main": "src/ts/index.ts",
+  "scripts": {
+    "build:pdf": "npx tsx scripts/build_pdf_ts.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@astryxdesign/core": "^0.7.3",
+    "@astryxdesign/theme-neutral": "^0.7.3",
+    "@stylexjs/stylex": "^0.19.0",
+    "puppeteer": "^24.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
