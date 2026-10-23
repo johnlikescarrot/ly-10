@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" width="760" height="220" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <rect x="0" y="0" width="760" height="220" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="380" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#0F172A">4 NHÓM BIỂN BÁO AN TOÀN TRONG PHÒNG THỰC HÀNH VẬT LÍ (BÀI 2)</text>
+
+  <!-- Card 1: Prohibition -->
+  <rect x="14" y="36" width="174" height="172" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.2"/>
+  <rect x="14" y="36" width="174" height="26" rx="8" fill="#FEE2E2"/>
+  <text x="101" y="53" text-anchor="middle" font-size="11" font-weight="700" fill="#991B1B">1. BIỂN BÁO CẤM</text>
+  <circle cx="101" cy="100" r="26" fill="#FFFFFF" stroke="#DC2626" stroke-width="5"/>
+  <!-- Flame inside -->
+  <path d="M101 82 C108 91, 111 97, 108 106 C106 112, 96 112, 94 106 C91 98, 96 90, 101 82 Z" fill="#1E293B"/>
+  <line x1="83" y1="82" x2="119" y2="118" stroke="#DC2626" stroke-width="5"/>
+  <text x="101" y="143" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1E293B">Tròn, nền trắng, viền đỏ</text>
+  <text x="101" y="158" text-anchor="middle" font-size="9" fill="#475569"> gạch chéo đỏ, hình đen</text>
+  <text x="101" y="176" text-anchor="middle" font-size="8.8" fill="#DC2626">VD: Cấm lửa, cấm uống nước,</text>
+  <text x="101" y="190" text-anchor="middle" font-size="8.8" fill="#DC2626">không bỏ vào thùng rác</text>
+
+  <!-- Card 2: Mandatory -->
+  <rect x="200" y="36" width="174" height="172" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.2"/>
+  <rect x="200" y="36" width="174" height="26" rx="8" fill="#DBEAFE"/>
+  <text x="287" y="53" text-anchor="middle" font-size="11" font-weight="700" fill="#1E40AF">2. BẮT BUỘC THỰC HIỆN</text>
+  <circle cx="287" cy="100" r="26" fill="#2563EB"/>
+  <!-- Goggles icon -->
+  <rect x="270" y="93" width="14" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+  <rect x="290" y="93" width="14" height="11" rx="3" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+  <line x1="284" y1="98" x2="290" y2="98" stroke="#FFFFFF" stroke-width="2.4"/>
+  <line x1="266" y1="97" x2="270" y2="97" stroke="#FFFFFF" stroke-width="2.2"/>
+  <line x1="304" y1="97" x2="308" y2="97" stroke="#FFFFFF" stroke-width="2.2"/>
+  <text x="287" y="143" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1E293B">Hình tròn, nền xanh dương</text>
+  <text x="287" y="158" text-anchor="middle" font-size="9" fill="#475569">hình vẽ màu trắng</text>
+  <text x="287" y="176" text-anchor="middle" font-size="8.8" fill="#1D4ED8">VD: Phải đeo kính bảo hộ,</text>
+  <text x="287" y="190" text-anchor="middle" font-size="8.8" fill="#1D4ED8">găng tay, đồ bảo hộ</text>
+
+  <!-- Card 3: Warning -->
+  <rect x="386" y="36" width="174" height="172" rx="8" fill="#FFFFFF" stroke="#FCD34D" stroke-width="1.2"/>
+  <rect x="386" y="36" width="174" height="26" rx="8" fill="#FEF3C7"/>
+  <text x="473" y="53" text-anchor="middle" font-size="11" font-weight="700" fill="#92400E">3. CẢNH BÁO NGUY HIỂM</text>
+  <polygon points="473,72 503,124 443,124" fill="#FACC15" stroke="#1E293B" stroke-width="3.2" stroke-linejoin="round"/>
+  <!-- Lightning bolt -->
+  <polygon points="475,85 466,104 473,104 469,119 482,99 474,99" fill="#1E293B"/>
+  <text x="473" y="143" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1E293B">Tam giác đều, nền vàng</text>
+  <text x="473" y="158" text-anchor="middle" font-size="9" fill="#475569">viền đen/đỏ, hình đen</text>
+  <text x="473" y="176" text-anchor="middle" font-size="8.8" fill="#B45309">VD: Điện áp cao, tia laser,</text>
+  <text x="473" y="190" text-anchor="middle" font-size="8.8" fill="#B45309">nhiệt độ cao, từ trường</text>
+
+  <!-- Card 4: Chemical / Fire Hazard -->
+  <rect x="572" y="36" width="174" height="172" rx="8" fill="#FFFFFF" stroke="#FDBA74" stroke-width="1.2"/>
+  <rect x="572" y="36" width="174" height="26" rx="8" fill="#FFEDD5"/>
+  <text x="659" y="53" text-anchor="middle" font-size="11" font-weight="700" fill="#9A3412">4. CẢNH BÁO HÓA CHẤT</text>
+  <rect x="633" y="74" width="52" height="52" rx="4" fill="#FB923C" stroke="#1E293B" stroke-width="3"/>
+  <!-- Skull / Toxic X -->
+  <line x1="645" y1="86" x2="673" y2="114" stroke="#1E293B" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="673" y1="86" x2="645" y2="114" stroke="#1E293B" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="659" y="143" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1E293B">Hình vuông, nền đỏ cam</text>
+  <text x="659" y="158" text-anchor="middle" font-size="9" fill="#475569">viền đen, hình vẽ đen</text>
+  <text x="659" y="176" text-anchor="middle" font-size="8.8" fill="#C2410C">VD: Chất độc sức khỏe,</text>
+  <text x="659" y="190" text-anchor="middle" font-size="8.8" fill="#C2410C">chất dễ cháy, chất ăn mòn</text>
+</svg>
