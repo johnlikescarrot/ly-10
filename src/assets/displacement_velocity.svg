@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 235" width="760" height="235" font-family="Be Vietnam Pro, DejaVu Sans, sans-serif">
+  <defs>
+    <marker id="arrRed" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#DC2626"/>
+    </marker>
+    <marker id="arrBlue" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#2563EB"/>
+    </marker>
+    <marker id="arrTeal" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#0D9488"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="760" height="235" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+
+  <!-- Left Panel: Quãng đường s vs Độ dịch chuyển d -->
+  <rect x="14" y="14" width="356" height="207" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="192" y="34" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0F172A">A. Quãng đường đi được (s) vs Độ dịch chuyển (d)</text>
+  <!-- Curved path s -->
+  <path d="M 58 168 C 95 65, 185 205, 235 88 C 265 48, 295 95, 318 122" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Straight displacement vector d -->
+  <line x1="58" y1="168" x2="314" y2="123" stroke="#DC2626" stroke-width="3" marker-end="url(#arrRed)"/>
+  <circle cx="58" cy="168" r="4.5" fill="#0F172A"/>
+  <circle cx="318" cy="122" r="4.5" fill="#DC2626"/>
+  <text x="46" y="187" font-size="10.5" font-weight="700" fill="#0F172A">A (Đầu)</text>
+  <text x="295" y="110" font-size="10.5" font-weight="700" fill="#DC2626">B (Cuối)</text>
+  <text x="155" y="83" font-size="10.5" font-weight="600" fill="#1D4ED8">Quãng đường s (độ dài quỹ đạo ≥ d)</text>
+  <text x="195" y="162" font-size="10.5" font-weight="700" fill="#DC2626">Vectơ độ dịch chuyển d</text>
+  <rect x="28" y="194" width="328" height="20" rx="4" fill="#FEF2F2"/>
+  <text x="192" y="208" text-anchor="middle" font-size="9.5" font-weight="600" fill="#991B1B">Chỉ khi đi THẲNG &amp; KHÔNG ĐỔI CHIỀU thì: d = s (độ lớn)</text>
+
+  <!-- Right Panel: Boat crossing river -->
+  <rect x="386" y="14" width="360" height="207" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="566" y="34" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0F172A">B. Tổng hợp 2 vận tốc vuông góc (Ca nô qua sông)</text>
+  <!-- River banks -->
+  <rect x="406" y="54" width="320" height="122" fill="#EFF6FF"/>
+  <line x1="406" y1="54" x2="726" y2="54" stroke="#64748B" stroke-width="2"/>
+  <line x1="406" y1="176" x2="726" y2="176" stroke="#64748B" stroke-width="2"/>
+  <text x="415" y="49" font-size="9" fill="#475569">Bờ bên kia</text>
+  <text x="415" y="190" font-size="9" fill="#475569">Bờ xuất phát</text>
+
+  <!-- Vectors from origin O(465, 166) -->
+  <!-- v12 up -->
+  <line x1="465" y1="166" x2="465" y2="74" stroke="#2563EB" stroke-width="2.8" marker-end="url(#arrBlue)"/>
+  <!-- v23 right -->
+  <line x1="465" y1="166" x2="585" y2="166" stroke="#0D9488" stroke-width="2.8" marker-end="url(#arrTeal)"/>
+  <!-- Dashed parallelogram -->
+  <line x1="465" y1="70" x2="589" y2="70" stroke="#94A3B8" stroke-width="1.4" stroke-dasharray="4,4"/>
+  <line x1="589" y1="166" x2="589" y2="70" stroke="#94A3B8" stroke-width="1.4" stroke-dasharray="4,4"/>
+  <!-- v13 diagonal -->
+  <line x1="465" y1="166" x2="584" y2="74" stroke="#DC2626" stroke-width="3" marker-end="url(#arrRed)"/>
+  <!-- Angle arc -->
+  <path d="M 465 136 A 30 30 0 0 1 489 148" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="474" y="133" font-size="10" font-weight="700" fill="#DC2626">α</text>
+
+  <circle cx="465" cy="166" r="4" fill="#0F172A"/>
+  <text x="420" y="118" font-size="10" font-weight="700" fill="#1D4ED8">v₁,₂</text>
+  <text x="410" y="131" font-size="8.5" fill="#1D4ED8">(thuyền/nước)</text>
+  <text x="515" y="160" font-size="10" font-weight="700" fill="#0F766E">v₂,₃ (nước/bờ)</text>
+  <text x="536" y="114" font-size="10.5" font-weight="700" fill="#DC2626">v₁,₃ (thuyền/bờ)</text>
+
+  <!-- Formula box on right inside river -->
+  <rect x="602" y="68" width="116" height="94" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="660" y="86" text-anchor="middle" font-size="9.5" font-weight="700" fill="#0F172A">Pythagore:</text>
+  <text x="660" y="104" text-anchor="middle" font-size="9.5" font-weight="700" fill="#DC2626">v₁,₃ = √(v₁,₂² + v₂,₃²)</text>
+  <text x="660" y="124" text-anchor="middle" font-size="9" fill="#334155">tan α = v₂,₃ / v₁,₂</text>
+  <text x="660" y="143" text-anchor="middle" font-size="8.5" fill="#0F766E">t_qua sông = d_sông / v₁,₂</text>
+  <text x="660" y="156" text-anchor="middle" font-size="8.2" fill="#64748B">(không phụ thuộc v₂,₃!)</text>
+
+  <rect x="398" y="194" width="336" height="20" rx="4" fill="#EFF6FF"/>
+  <text x="566" y="208" text-anchor="middle" font-size="9.5" font-weight="600" fill="#1E40AF">Quy tắc nối đuôi: v(1,3) = v(1,2) + v(2,3)  [1: Vật | 2: Nước | 3: Bờ]</text>
+</svg>
