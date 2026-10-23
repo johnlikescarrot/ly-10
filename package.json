@@ -1,0 +1,23 @@
+{
+  "name": "ly-10-astryx",
+  "version": "1.0.0",
+  "description": "Đề Cương Ôn Tập Giữa Học Kì I - Vật Lí 10 (2026-2027) redesigned with TypeScript & Astryx Design System",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build:assets": "python3 scripts/generate_assets.py",
+    "build:pdf": "npx tsx scripts/build_pdf.ts",
+    "build": "npm run build:assets && npm run build:pdf",
+    "test": "npx tsx scripts/verify_content.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "puppeteer-core": "^23.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
