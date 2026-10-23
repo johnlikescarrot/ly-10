@@ -1,0 +1,25 @@
+{
+  "name": "ly-10",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "De cuong on tap Physical 10 using Astryx Design System",
+  "scripts": {
+    "build": "tsc && node scripts/render_astryx_pdf.js",
+    "build:typst": "python3 scripts/generate_assets.py && python3 scripts/build_pdf.py"
+  },
+  "dependencies": {
+    "@astryxdesign/build": "^0.7.3",
+    "@astryxdesign/core": "^0.7.3",
+    "@stylexjs/stylex": "^0.10.0",
+    "playwright": "^1.58.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.0"
+  }
+}
