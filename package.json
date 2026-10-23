@@ -1,0 +1,24 @@
+{
+  "name": "ly-10-review",
+  "version": "1.0.0",
+  "description": "Đề Cương Ôn Tập KTGK I Vật Lí 10 (2026–2027) - Astryx TypeScript PDF",
+  "main": "scripts/build_pdf.ts",
+  "scripts": {
+    "build": "tsx scripts/build_pdf.ts",
+    "build:python": "python3 scripts/build_pdf.py"
+  },
+  "dependencies": {
+    "@astryxdesign/core": "^0.7.3",
+    "@astryxdesign/theme-neutral": "^0.7.3",
+    "puppeteer": "^24.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
