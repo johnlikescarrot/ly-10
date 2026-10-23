@@ -1,0 +1,4 @@
+fpdf2==2.8.9
+fonttools>=4.60
+brotli>=1.1
+pypdfium2>=4.30   # only needed for verifying the built PDF

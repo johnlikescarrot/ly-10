@@ -1,0 +1,15 @@
+# Local Python virtualenv used to build the PDF
+.pdfenv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Word lock files
+~$*.docx
