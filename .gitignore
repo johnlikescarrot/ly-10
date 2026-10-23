@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dữ liệu trích xuất tạm (sinh lại bằng parser trong tools/)
+*.tmp
+/tmp/
+
+# Kết quả kiểm tra
+/out/
+*.log
